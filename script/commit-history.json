@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "75189635f0b5612ced4402ec1c484dba70a30edd",
     "author": "JoseAB32",
     "commit": {
       "date": "2025-08-21T12:26:50.000Z",
       "message": "feat: Saludar con un hola",
-      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/75189635f0b5612ced4402ec1c484dba70a30edd"
     },
     "stats": {
       "total": 13,
       "additions": 4,
       "deletions": 9,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "JoseAB32",
+    "commit": {
+      "date": "2025-08-21T12:32:52.000Z",
+      "message": "feat: Saluda con el nombre del usuario, pidiendo por teclado",
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 11,
+      "deletions": 10,
       "date": "2025-08-21"
     },
     "coverage": 100,
