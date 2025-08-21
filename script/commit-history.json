@@ -57,17 +57,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fc56046f44488de5d63596aa4a91b12d2427dbde",
     "author": "JoseAB32",
     "commit": {
       "date": "2025-08-21T12:56:37.000Z",
       "message": "feat: Saluda Por Genero",
-      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/fc56046f44488de5d63596aa4a91b12d2427dbde"
     },
     "stats": {
       "total": 39,
       "additions": 31,
       "deletions": 8,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "JoseAB32",
+    "commit": {
+      "date": "2025-08-21T13:02:36.000Z",
+      "message": "feat: Saluda Con parametros de edad",
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 20,
+      "deletions": 6,
       "date": "2025-08-21"
     },
     "coverage": 100,
