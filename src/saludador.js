@@ -1,6 +1,5 @@
 import textos from "./textos";
 
-const textos = textos || {};
 
 const fechaActual = new Date();
 const hora = fechaActual.getHours();
@@ -32,9 +31,9 @@ function saludar(nombre, genero, edad, selectedIdioma) {
     if (hora < 12) {
         return `${textos[selectedIdioma].manana} ${nombre}, ${mensaje}`;
     } else if (hora < 18) {
-        return `${textos[selectedIdioma.tarde]} ${nombre}, ${mensaje}`;
+        return `${textos[selectedIdioma].tarde} ${nombre}, ${mensaje}`;
     } else {
-        return `${textos[selectedIdioma.noche]} ${nombre}, ${mensaje}`;
+        return `${textos[selectedIdioma].noche} ${nombre}, ${mensaje}`;
     }
 }
 

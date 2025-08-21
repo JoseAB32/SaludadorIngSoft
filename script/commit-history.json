@@ -95,17 +95,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "62b1b3c6cc0fde2244d22682efc974f7b040c7f0",
     "author": "JoseAB32",
     "commit": {
       "date": "2025-08-21T13:52:41.000Z",
       "message": "feat: Manejo de idioamas",
-      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/62b1b3c6cc0fde2244d22682efc974f7b040c7f0"
     },
     "stats": {
       "total": 113,
       "additions": 97,
       "deletions": 16,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "JoseAB32",
+    "commit": {
+      "date": "2025-08-21T14:18:08.000Z",
+      "message": "feat: Manejo de idiomas Corregido",
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 3,
+      "deletions": 4,
       "date": "2025-08-21"
     },
     "coverage": 100,
