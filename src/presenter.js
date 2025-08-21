@@ -9,5 +9,9 @@ form.addEventListener("submit", (event) => {
 
   const Nombre = nombre.value;
 
-  div.innerHTML = "<p> HOLA " + saludar(Nombre) + "</p>";
+  const Genero = document.querySelector('input[name="Genero"]:checked')?.value || "Otro";
+
+  console.log(Nombre, Genero);
+
+  div.innerHTML = "<p> HOLA " + saludar(Nombre, Genero) + "</p>";
 });

@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d0ec8c5d7ef9100ab7bc1e19dddd2f0d3a8604f2",
     "author": "JoseAB32",
     "commit": {
       "date": "2025-08-21T12:40:52.000Z",
       "message": "feat: Ahora Saluda dependiento la hora en la que se ecneuntra, manana, tarde o noche",
-      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/d0ec8c5d7ef9100ab7bc1e19dddd2f0d3a8604f2"
     },
     "stats": {
       "total": 22,
       "additions": 18,
       "deletions": 4,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "JoseAB32",
+    "commit": {
+      "date": "2025-08-21T12:56:37.000Z",
+      "message": "feat: Saluda Por Genero",
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 39,
+      "additions": 31,
+      "deletions": 8,
       "date": "2025-08-21"
     },
     "coverage": 100,
