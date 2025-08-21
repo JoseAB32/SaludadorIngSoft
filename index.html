@@ -5,10 +5,15 @@
   </head>
   <body>
     <h1>Saludador</h1>
+    <form id="idioma">
+      <input type="radio" name="Idioma" value="es" id="espanol" checked />
+      <label for="espanol">Espanol</label>
+      <input type="radio" name="Idioma" value="en" id="ingles" />
+      <label for="ingles">Ingles</label><br>
+    </form>
     <form id="saludar-form">
       <label for="primer-numero">Ingresa Tu Nombre:</label>
-      <input type="placeholder" id="nombre" />
-      <input type="submit" value="saludar" id="Saludar" /><br>
+      <input type="placeholder" id="nombre" /><br>
       <label for="Genero">Escoge Tu Genero</label>
       <input type="radio" name="Genero" value="Masculino" id="Masculino" />
       <label for="Masculino">Masculino</label>
@@ -17,7 +22,8 @@
       <input type="radio" name="Genero" value="Otro" id="Otro" />
       <label for="Otro">Otro</label><br>
       <label for="primer-numero">Ingresa Tu edad:</label>
-      <input type="edad" id="edad" />
+      <input type="edad" id="edad" /><br>
+      <input type="submit" value="saludar" id="Saludar" />
     </form>
     <div id="resultado-div"></div>
 

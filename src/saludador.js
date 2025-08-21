@@ -1,34 +1,40 @@
+import textos from "./textos";
+
+const textos = textos || {};
+
 const fechaActual = new Date();
 const hora = fechaActual.getHours();
 
-function mesnajeGenero(genero, edad) {
+function mesnajeGenero(genero, edad, selectedIdioma) {
   if (genero === "Masculino") {
     if (edad > 30) {
-      return "un placer tenerte aquí Sr.";
+      return textos[selectedIdioma].placerMasculinoAdulto;
     }
-    return "un placer tenerlo aquí";
+    return textos[selectedIdioma].placerMasculinoJoven;
   } else if (genero === "Femenino") {
     if (edad > 30) {
-      return "un placer tenerte aquí Sra.";
+      return textos[selectedIdioma].placerFemeninoAdulto;
     }
-    return "un placer tenerla aquí";    
+    return textos[selectedIdioma].placerFemeninoJoven;    
   }
     if (edad > 30) {    
-      return "un placer tenerle aquí Estimado";
+      return textos[selectedIdioma].placerOtroAdulto;
     }
-    return "un placer tenerle aquí";
+    return textos[selectedIdioma].placerOtroJoven;
 }
 
 
-function saludar(nombre, genero, edad) {
+function saludar(nombre, genero, edad, selectedIdioma) {
 
-    const mensaje = mesnajeGenero(genero, edad);
+    console.log(selectedIdioma);
+
+    const mensaje = mesnajeGenero(genero, edad, selectedIdioma);
     if (hora < 12) {
-        return `Buenos días ${nombre}, ${mensaje}`;
+        return `${textos[selectedIdioma].manana} ${nombre}, ${mensaje}`;
     } else if (hora < 18) {
-        return `Buenas tardes ${nombre}, ${mensaje}`;
+        return `${textos[selectedIdioma.tarde]} ${nombre}, ${mensaje}`;
     } else {
-        return `Buenas noches ${nombre}, ${mensaje}`;
+        return `${textos[selectedIdioma.noche]} ${nombre}, ${mensaje}`;
     }
 }
 
