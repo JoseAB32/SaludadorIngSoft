@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "JoseAB32",
+    "commit": {
+      "date": "2025-08-21T12:26:50.000Z",
+      "message": "feat: Saludar con un hola",
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 4,
+      "deletions": 9,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
