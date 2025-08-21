@@ -1,4 +1,4 @@
-import sumar from "./sumador";
+import saludar from "./saludador.js";
 
 const nombre = document.querySelector("#nombre");
 const form = document.querySelector("#saludar-form");
@@ -9,5 +9,5 @@ form.addEventListener("submit", (event) => {
 
   const Nombre = nombre.value;
 
-  div.innerHTML = "<p> HOLA " + Nombre + "</p>";
+  div.innerHTML = "<p> HOLA " + saludar(Nombre) + "</p>";
 });

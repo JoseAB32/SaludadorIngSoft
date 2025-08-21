@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f8b1e36922f91dce994180e551c188dc0eaff7ef",
     "author": "JoseAB32",
     "commit": {
       "date": "2025-08-21T12:32:52.000Z",
       "message": "feat: Saluda con el nombre del usuario, pidiendo por teclado",
-      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/f8b1e36922f91dce994180e551c188dc0eaff7ef"
     },
     "stats": {
       "total": 21,
       "additions": 11,
       "deletions": 10,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "JoseAB32",
+    "commit": {
+      "date": "2025-08-21T12:40:52.000Z",
+      "message": "feat: Ahora Saluda dependiento la hora en la que se ecneuntra, manana, tarde o noche",
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 18,
+      "deletions": 4,
       "date": "2025-08-21"
     },
     "coverage": 100,
