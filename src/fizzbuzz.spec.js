@@ -8,4 +8,8 @@ describe("fizzbuzz", () => {
   it("deberia devolver el mismo numero si no es multiplo de 3 ni de 5", () => {
     expect(convertirFizzBuzz(4)).toEqual("4");
   });
+
+  it("deberia devolver Fizz si es 3", () => {
+    expect(convertirFizzBuzz(3)).toEqual("Fizz");
+  });
 });

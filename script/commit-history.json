@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3ff88e3e57d01fcf905778a8109cafd215da9c62",
     "author": "JoseAB32",
     "commit": {
       "date": "2025-08-28T04:44:58.000Z",
       "message": "Feat: devuelve el numero",
-      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/3ff88e3e57d01fcf905778a8109cafd215da9c62"
     },
     "stats": {
       "total": 61,
@@ -148,6 +148,25 @@
     },
     "coverage": 68,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "JoseAB32",
+    "commit": {
+      "date": "2025-08-28T04:46:56.000Z",
+      "message": "Feat: devuelve Fizz si se manda el 3",
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2025-08-28"
+    },
+    "coverage": 70.37,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
