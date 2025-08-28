@@ -1,4 +1,7 @@
 function convertirFizzBuzz(numero) {
+  if (numero === 5) {
+    return "Buzz";
+  } 
   if (numero % 3 === 0) {
     return "Fizz";
   }

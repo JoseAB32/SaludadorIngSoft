@@ -16,4 +16,8 @@ describe("fizzbuzz", () => {
   it("deberia devolver Fizz si es multiplo de 3", () => {
     expect(convertirFizzBuzz(6)).toEqual("Fizz");
   });
+
+  it("deberia devolver Buzz si es 5", () => {
+    expect(convertirFizzBuzz(5)).toEqual("Buzz");
+  });
 });
