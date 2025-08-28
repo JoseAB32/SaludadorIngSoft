@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "38811d762eddfeb1fbd8fe80c640a1e790adfb76",
     "author": "JoseAB32",
     "commit": {
       "date": "2025-08-21T14:18:08.000Z",
       "message": "feat: Manejo de idiomas Corregido",
-      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/38811d762eddfeb1fbd8fe80c640a1e790adfb76"
     },
     "stats": {
       "total": 7,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "JoseAB32",
+    "commit": {
+      "date": "2025-08-28T04:44:58.000Z",
+      "message": "Feat: devuelve el numero",
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 61,
+      "additions": 57,
+      "deletions": 4,
+      "date": "2025-08-28"
+    },
+    "coverage": 68,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

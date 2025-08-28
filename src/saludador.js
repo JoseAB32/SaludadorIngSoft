@@ -2,7 +2,7 @@ import textos from "./textos";
 
 
 const fechaActual = new Date();
-const hora = fechaActual.getHours();
+
 
 function mesnajeGenero(genero, edad, selectedIdioma) {
   if (genero === "Masculino") {
@@ -23,7 +23,7 @@ function mesnajeGenero(genero, edad, selectedIdioma) {
 }
 
 
-function saludar(nombre, genero, edad, selectedIdioma) {
+function saludar(nombre, genero, edad, selectedIdioma, hora = fechaActual.getHours()) {
 
     console.log(selectedIdioma);
 
