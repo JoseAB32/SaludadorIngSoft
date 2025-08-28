@@ -15,4 +15,12 @@ function convertirFizzBuzz(numero) {
   return numero;
 }
 
-export {convertirFizzBuzz};
+function cadena(num) {  
+  let resultado = [];
+  for (let i = 1; i <= num; i++) {
+    resultado.push(convertirFizzBuzz(i));
+  }
+  return resultado.join(", ");
+}
+
+export {convertirFizzBuzz, cadena};

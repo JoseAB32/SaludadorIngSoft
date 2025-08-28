@@ -1,4 +1,4 @@
-import {convertirFizzBuzz} from "./fizzbuzz.js";
+import {convertirFizzBuzz, cadena} from "./fizzbuzz.js";
 
 describe("fizzbuzz", () => {
   it("deberia devolver el mismo numero si no es multiplo de 3 ni de 5", () => {
@@ -27,5 +27,11 @@ describe("fizzbuzz", () => {
 
   it("deberia devolver FizzBuzz si es multiplo de 3 y de 5", () => {
     expect(convertirFizzBuzz(15)).toEqual("FizzBuzz");
+  });
+});
+
+describe("CadenaFizzBuzz", () => {
+  it("deberia devolver una cadena FizzBuzz 1 hasta el parametro que se mande", () => {
+    expect(cadena(15)).toEqual("1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz");
   });
 });
