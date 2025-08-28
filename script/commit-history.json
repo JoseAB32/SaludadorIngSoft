@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ac8a8cf7606f9b3773d07dc8e84b0a1fdf1ea08f",
     "author": "JoseAB32",
     "commit": {
       "date": "2025-08-28T04:50:05.000Z",
       "message": "Feat: devuelve Buzz si es multiplo 5",
-      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/ac8a8cf7606f9b3773d07dc8e84b0a1fdf1ea08f"
     },
     "stats": {
       "total": 6,
@@ -224,6 +224,25 @@
     },
     "coverage": 72.41,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "JoseAB32",
+    "commit": {
+      "date": "2025-08-28T04:51:36.000Z",
+      "message": "Feat: devuelve Buzz si es multiplo 5 y multiplo de 3",
+      "url": "https://github.com/JoseAB32/SaludadorIngSoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2025-08-28"
+    },
+    "coverage": 74.19,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }
